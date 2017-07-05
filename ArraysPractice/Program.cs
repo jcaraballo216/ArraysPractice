@@ -55,6 +55,42 @@ namespace ArraysPractice
             //ageOfStudent[0] = int.Parse(Console.ReadLine());
             ////create a new string variable and set it equal to the int at the index of 0 and convert it into a string.
 
+            //string[] dinersInMall = { "Subway", "Sakkio", "Dunkin Donuts", "Red Lobster", "Chick Fil-A" };
+            //Console.WriteLine(dinersInMall.Length);
+            ////for review
+            //int[] myIntArrayAgain;
+            ////decleare an array when i know the elements
+            //char[] lettersInName = { 'j', 'e', 'r', 'o', 'm', 'e' };
+            ////declare and initialize an array when i dont know the elements but know how many there will be
+            //string[] variableName = new string[10];
+            ////to practice using .Length create a char array of the letters in your middle name...
+            //// and print the number of char's to the console.
+            //char[] middleName = { 's', 'a', 'm', 'u', 'e', 'l' };
+            //Console.WriteLine(middleName.Length);
+
+            ////declara and initialize a string array
+            ////using the .Length property, print the Second to last element in the array
+            //string[] basketballTeams = { "cavs" , "pistons","browns","indians","pirates"};
+            //int numBasket = (basketballTeams.Length);
+            //Console.WriteLine(basketballTeams[numBasket - 2]);
+
+            //Index of is a method used to search an array for a specified value and returns...
+            //the index position of the first matching value found.
+            //int[] bestYearsEver = { 1982, 1999, 1991, 2000, 2005 };
+            //Console.WriteLine(Array.IndexOf(bestYearsEver, 2000));
+            ////LastIndexOf is a method used to search an array for a specified value and returns...
+            ////the index position of the last matching value.
+            //Console.WriteLine(Array.LastIndexOf(bestYearsEver, 2000));
+
+            //reverse method
+            //int[] palindromeNum = { 1, 2, 3, 4, 5, 6, 7 };
+            //Console.WriteLine(palindromeNum[0]);
+            //Array.Reverse(palindromeNum);
+            //Console.WriteLine(palindromeNum[0]);
+
+            
+
+        
 
 
 
