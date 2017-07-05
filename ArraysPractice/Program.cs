@@ -84,13 +84,39 @@ namespace ArraysPractice
 
             //reverse method
             //int[] palindromeNum = { 1, 2, 3, 4, 5, 6, 7 };
-            //Console.WriteLine(palindromeNum[0]);
-            //Array.Reverse(palindromeNum);
-            //Console.WriteLine(palindromeNum[0]);
+            //Console.WriteLine(palindromeNum[0]); //will return 1
+            //Array.Reverse(palindromeNum);//reverses the order
+            //Console.WriteLine(palindromeNum[0]);//will return 7
 
-            
+            //sort
+            //will sort numbers in an array from lowest to highest
+            //will sort char's and stings in alphabetical order from A-Z
+            //string[] powerRangers = { "green", "yellow", "red", "pink", "blue", "black" };
+            //Console.WriteLine(powerRangers[0]);//will print green
+            //Array.Sort(powerRangers);//sort by alphabetical order
+            //Console.WriteLine(powerRangers[0]);//will print black
 
-        
+            //Practice Do It problems
+            string[] firstNames = { "Jerome", "Mike", "Sam" };
+            Console.WriteLine(Array.IndexOf(firstNames, "Jerome"));
+            int[] luckyNum = { 2, 2, 3,3, 4,4, 6, 6, 7,7, 8,8, 9,9 };
+            Console.WriteLine(Array.LastIndexOf(luckyNum, 7));
+            char[] alphaBet = { 'j', 's', 'c', 'i', 'o' };
+            Console.WriteLine(alphaBet[1]);
+            Array.Reverse(alphaBet);
+            Console.WriteLine(alphaBet[1]);
+
+            string[] studentName = { "jerome", "mike", "clair", "Frank" };
+            Array.Sort(studentName);
+            Console.Write(studentName[0] + " ");
+            Console.WriteLine(studentName[3]);
+
+            int[] randomNum = { 5, 8, 6, 3, 8, 10, 23, 45, 2, 1 };
+            Array.Sort(randomNum);
+            Console.WriteLine(randomNum[0] + " " + randomNum[9]);
+
+
+
 
 
 
